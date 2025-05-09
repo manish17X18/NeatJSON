@@ -20,7 +20,7 @@
 Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/json-formatter.git
+git clone https://github.com/CodewMilan/json-formatter.git
 cd json-formatter
 ```
 
