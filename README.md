@@ -20,8 +20,7 @@
 Clone the repo:
 
 ```bash
-git clone https://github.com/CodewMilan/json-formatter.git
-cd json-formatter
+git clone https://github.com/CodewMilan/NeatJSON.git
 ```
 
 Install dependencies (if applicable):
