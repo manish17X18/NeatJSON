@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeatJSON - JSON Formatter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>NeatJSON</h1>
+            <p class="subtitle">A clean and simple JSON formatter</p>
+        </header>
+        
+        <main>
+            <div class="input-section">
+                <div class="section-header">
+                    <h2>Input JSON</h2>
+                    <button id="formatBtn" class="btn primary">Format</button>
+                </div>
+                <textarea id="jsonInput" placeholder="Paste your JSON here..."></textarea>
+            </div>
+
+            <div class="output-section">
+                <div class="section-header">
+                    <h2>Formatted Output</h2>
+                    <button id="copyBtn" class="btn secondary">Copy</button>
+                </div>
+                <pre id="jsonOutput"></pre>
+            </div>
+        </main>
+
+        <div id="error" class="error-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
